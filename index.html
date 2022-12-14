@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fitness Club</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        nav{
+            height:150px;
+            background-color:red;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding:0px 50px 0px 100px;
+        }
+       
+        nav ul{
+            display: flex;
+            list-style: none;
+        }
+        nav ul li{
+            margin:0 50px;
+        }
+        nav ul li a{
+            color:#fff;
+            text-decoration: none;
+            font-size:x-large;
+            letter-spacing: 1px;
+        }
+        nav h4{
+            text-align:center;
+            color:#00FFFF;
+            display:flex;
+        }
+        nav h3{
+            text-align: center;
+            
+        }
+        
+      #container>div>img{
+        width:1000px;
+       
+      }
+      #container{
+        display:flex;
+        justify-content: space-between;
+        width:90%;
+        margin:auto;
+        background-color: #00FFFF;
+        
+
+      }
+      
+      #container>div>h2{
+        text-align: left;
+        margin:auto;
+        font-size: 70px;
+        padding-left: 400px;
+        
+      }
+      #container>div>p{
+        text-align: left;
+        margin:auto;
+        font-size: 40px;
+        padding-left: 400px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+      }
+      #container>div>button{
+        text-align: center;
+        font-size: 40px;
+        background-color:black;
+        color:white;
+        padding:20px;
+       
+       
+
+      }
+      #container>div{
+        text-align: center;
+        margin:auto;
+      }
+      #plus>div>h1{
+        padding-top: 10px;
+        text-align: center;
+        margin: auto;
+        font-size: 100px;
+      }
+      #plus>div>p{
+        text-align: center;
+        margin: auto;
+        font-size: 70px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+      }
+      #plus>div>button{
+        text-align: center;
+        font-size: 40px;
+        padding:20px;
+       background-color: black;
+       color:white;
+      
+     margin:auto;
+      
+      
+      
+      margin-left: 1700px;
+      padding-top: 20px;
+      }
+      #plus{
+      
+         background-color:#FCE4EC ;
+        padding-top: 20px;
+       
+        
+
+      }
+      
+        #image>img{
+         
+            justify-content: center;
+            padding-left: 2000px;
+            padding-right: 2000px;
+            
+        }
+        #png{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap:1px;
+        }
+        #png>img{
+            width:100%;
+        }
+       #banner{
+        width:5000px;
+       }
+       #flex{
+        display:flex;
+  
+        gap:10px;
+        margin:auto;
+      justify-content: center;
+      background-color:#ECEFF1;
+     
+     
+       }
+      
+       #flex>div{
+        box-shadow:  rgba(149, 157, 165, 0.2) 0px 8px 24px;
+       }
+       #flex>div>h2{
+        text-align: left;
+        margin: auto;
+        padding-bottom: 5px;
+        
+       }
+       #flex>div>h5{
+        text-align:left ;
+        margin: auto;
+        padding-left: 40px;
+        color:#2196F3;
+        padding-top: 10px;
+        padding-bottom: 15px;
+        text-decoration: underline;
+       }
+       #flex>div>h3{
+        text-align: left;
+        margin: auto;
+        padding-left: 40px;
+       }
+       #flex>div>p{
+        text-align: left;
+        margin:auto;
+        padding-top: 50px;
+       }
+       #not{
+        background-color:#ECEFF1;
+     
+       }
+       #not>h1{
+          text-align:center;
+          margin:auto;
+          padding-top: 50px;
+          padding-bottom: 10px;
+       }
+       #not>p{
+        text-align: center;
+        margin: auto;
+        padding-top: 10px;
+          padding-bottom: 50px;
+    
+       }
+     
+       .site-footer
+{
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+
+ 
+    </style>
+  </head>
+  <body>
+    <nav>
+        <div class="logo">
+        <img src="https://libapps-au.s3-ap-southeast-2.amazonaws.com/accounts/22196/images/Screen_Shot_2020-03-11_at_9.45.06_PM.png" alt=""/></div>
+        <ul>
+            <li><a href="#">WORKOUTS</a></li>
+            <li><a href="#">PROGRAMS</a></li>
+            <li><a href="#">HEALTHY LIVING</a></li>
+            <li><a href="#">COMMUNITY</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">STORE</a></li>
+            <li><a href="#">MEMBERSHIP</a></li>
+
+        </ul>
+        
+        <img src="https://www.vecteezy.com/vector-art/1504972-search-vector-icon" alt="" />
+        <img src="data:image/png;base64,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" alt=""/>
+
+      </nav>
+      <div id="container">
+        <div>
+        
+      <h2>Feel Great.</h2>
+      <h2>Body and Mind.</h2>
+      <p>Choose from hundreds of workouts, healthy </p>
+      <p>recipes, relaxing meditations, and expert</p>
+      <p>articles, for a whole body and mind</p>
+      <p>approach to feeling great.</p>
+      
+      <button>JOIN NOW</button>
+        </div>
+       
+      <div>
+      
+        <img src="https://cloudfront.fitnessblender.com/assets/img/homepage/team-1440.webp" alt=""/>
+      </div>
+ </div>
+     
+<div id="plus">
+    <div>
+        <h1>Introducing</h1>
+        <h1>FB Plus Passes </h1>
+        <p>Passes give you full access to everything FB Plus has</p>
+        <p>to offer, without a long-term subscription. Choose a</p>
+        <p>pass that fits your budget and your schedule.</p>
+        <button>BUY A PASS</button>
+    <div id="image">
+        <img src="https://cloudfront.fitnessblender.com/assets/img/homepage/passes-1440.webp" alt=""/>
+    </div>
+    </div>
+
+</div>
+<div id="png">
+    <img src="https://cloudfront.fitnessblender.com/assets/img/homepage/workouts-1440.webp" alt="" />
+    <img src="https://cloudfront.fitnessblender.com/assets/img/homepage/programs-1440.webp" alt="" />
+    <img src="https://cloudfront.fitnessblender.com/assets/img/homepage/articles-1440.webp" alt="" />
+    <img src="https://cloudfront.fitnessblender.com/assets/img/homepage/recipes-1440.webp" alt="" />
+
+
+</div>
+<div id="banner">
+    <img src="https://cloudfront.fitnessblender.com/assets/img/homepage/community-2160.webp" alt=""/>
+</div>
+<div id="not">
+    <h1>Not sure where to start?</h1>
+    <p>Programs offer day-to-day guidance on an interactive calendar to keep you on track.</p>
+  <div id="flex">
+    <div>
+        <h2>Perfect for Beginners</h2>
+        <img src="https://d18zdz9g6n5za7.cloudfront.net/plan/320/320-o_31_fb-low-impact-round-2-fat-loss-program-40-minutes-or-less.jpg" alt=""/>
+        <h5>4 WEEK PROGRAM -34 MIN/DAY </h5>
+      <h3>FB low Impact Round 2 Build  </h3>
+      <h3>Muscle & Burn Fat-40 Minutes or</h3>
+      
+      <h3>Less</h3>
+      <p>$14.99</p>
+    </div>
+    <div>
+        <h2>You Choose</h2>
+        <img src="https://d18zdz9g6n5za7.cloudfront.net/plan/320/320-o_29_4-week-fb-blend-burn-fat-build-muscle-tone-35-or-55-minutes-a-day.jpg" alt=""/>
+        <h5>4 WEEK PROGRAM -38 MIN/DAY </h5>
+      <h3>FB Blend-Burn Fat,Build Muscle,</h3>
+      <h3>Tone;35 or 55 Minutes a Day</h3>
+      <p>$14.99</p>
+    </div>
+    <div>
+        <h2>Short on Time?</h2>
+        <img src="https://d18zdz9g6n5za7.cloudfront.net/plan/320/320-o_28_fb-30-4-week-fat-loss-program-for-busy-people-round-4.jpg" alt=""/>
+        <h5>4 WEEK PROGRAM -30 MIN/DAY </h5>
+      <h3>FB 30-Fat Loss Program For  </h3>
+      <h3> Busy People (Round-4)</h3>
+      <p>$14.99</p>
+    </div>
+    <div>
+        <h2>No Equipment Necessary</h2>
+        <img src="https://d18zdz9g6n5za7.cloudfront.net/plan/320/320-o_7_fb-bodyweight-bodyweight-only-fat-loss-program.jpg" alt=""/>
+        <h5>4 WEEK PROGRAM -40 MIN/DAY </h5>
+      <h3>FB Bodyweight-Bodyweight </h3>
+      <h3>Only Fat Loss Program</h3>
+      <p>$14.99</p>
+    </div>
+
+  </div>  
+</div>
+<footer class="site_footer">
+    <div class="box">
+        <div class="row">
+            <div class="col">
+                <img src="https://libapps-au.s3-ap-southeast-2.amazonaws.com/accounts/22196/images/Screen_Shot_2020-03-11_at_9.45.06_PM.png" alt=""/>
+
+            </div>
+            <div class="col1">
+                <h6>WORKOUTS</h6>
+                <ul class="footer_links">
+                    <li>WORKOUT VIDEOS</li>
+                    <li>CUSTUM WORKOUTS</li>
+                    <li>PROGRAMS</li>
+                    <li>WORKOUT PROGRAMS</li>
+                    <li>MEAL PLANS</li>
+                    <li>PILOT PROGRAMS</li>
+                    <li>ROUTINES</li>
+                </ul>
+            </div>
+            <div class="col1">
+                <h6>HEALTHY LEAVING</h6>
+                <ul class="footer_links">
+                    <li>FITNESS</li>
+                    <li>HEALTH</li>
+                    <li>NUTRITION</li>
+                    <li>HEALTHY RECIPES</li>
+                    <li>EXPERTS</li>
+                </ul>
+            </div>
+            <div class="col1">
+                <h6>ABOUT</h6>
+                <ul class="footer_links">
+                    <li>CAREERS</li>
+                    <li>TUTORIALS</li>
+                    <li>OUR TEAM</li>
+                    <li>B2B OPTIONS</li>
+                    
+                </ul>
+            </div>
+            <div class="col1">
+                <h6>MEMBERSHIP</h6>
+                <ul class="footer_links">
+                    <li>FB PLUS</li>
+                    <li>COMMUNITY</li>
+                    <li>BLOG</li>
+                    <li>CONTACT US</li>
+                    <li>FAQ</li>
+                    <li>STORE</li>
+                </ul>
+            </div>
+
+        </div>
+        <hr>
+    </div>
+    <div class="box">
+        <div class="row">
+            <div class="col">
+                <p class="copyright-text">Copyright  &copy;2022 Fitness Blender.All rights reserved.</p>
+            </div>
+            <div class="col">
+                <ul class="social_icon">
+                    <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+                    <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+</footer>
+  </body>
+</html>
+
