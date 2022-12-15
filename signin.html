@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SIGN IN</title>
+    <style>
+     form {border: 3px solid #f1f1f1;}
+    form>h1{
+        text-align: center;
+        margin: auto;
+        padding-bottom: 10px;
+    }
+    form>div{
+        text-align: center;
+        margin: auto;
+        padding-bottom: 5px;
+    }
+   form>p{
+    text-align: center;
+    margin: auto;
+   
+   }
+  .facebook{
+    background-color: blue;
+    font-style:oblique;
+    color:white;
+ 
+  }
+  .google{
+    background-color: red;
+    font-style: oblique;
+    color:white;
+    
+  }
+  .sub{
+    background-color: #2196F3;
+    padding-left: 20px;
+    padding-right: 20px;
+    color:white;
+   
+  }
+form>h5{
+    text-align: center;
+    margin: auto;
+    color:#64B5F6;
+    text-decoration: underline;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+form>h6{
+    text-align: center;
+    margin: auto;
+}
+
+
+    </style>
+  </head>
+  <body>
+  
+  <form id="class">
+    <h1>Sign In</h1>
+    <div>
+      <button class="facebook">FACEBOOK</button>
+      <button class="google">GOOGLE</button>
+    </div>
+    <p>or</p>
+    <div>
+        <label for="uname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+    </div>
+    <div>
+    
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+    </div>
+          <div>
+        <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+          </label>
+          </div>
+
+    </div>
+    <div >
+        <label>
+            <input type="checkbox" checked="checked" name="remember"> I am human
+          </label>
+    </div>
+        <div >
+    <button class="sub" type="submit">SIGN IN</button>
+        </div>
+    <h5>Forget Password?</h5>
+
+   <h6>Not a member yet? Join now -- it’s free!</h6>
+        </div>
+
+  </form>
+  </body>
+</html>
