@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>SIGN IN</title>
     <style>
      form {border: 3px solid #f1f1f1;}
@@ -34,7 +35,7 @@
     color:white;
     
   }
-  .sub{
+  #sub{
     background-color: #2196F3;
     padding-left: 20px;
     padding-right: 20px;
@@ -68,12 +69,12 @@ form>h6{
     <p>or</p>
     <div>
         <label for="uname"><b>Username</b></label>
-        <input type="text" placeholder="Enter Username" name="uname" required>
+        <input type="text" placeholder="Enter Username" name="uname" >
     </div>
     <div>
     
         <label for="psw"><b>Password</b></label>
-        <input type="password" placeholder="Enter Password" name="psw" required>
+        <input type="password" placeholder="Enter Password" name="psw" >
     </div>
           <div>
         <label>
@@ -88,7 +89,7 @@ form>h6{
           </label>
     </div>
         <div >
-    <button class="sub" type="submit">SIGN IN</button>
+    <button id="sub" type="submit">SIGN IN</button>
         </div>
     <h5>Forget Password?</h5>
 
@@ -96,5 +97,15 @@ form>h6{
         </div>
 
   </form>
+  
   </body>
 </html>
+ 
+<script>
+  
+
+    let btn=document.getElementById("sub");
+    btn.addEventListener("click",()=>{
+        alert("Login successfull")
+    })
+</script>
